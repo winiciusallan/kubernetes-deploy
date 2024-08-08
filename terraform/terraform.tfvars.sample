@@ -1,0 +1,18 @@
+# Global variables
+ssh_key_path = "path/to/your/key"
+
+nodes_ip_cidr = "cidr of provider network"
+
+# Control plane variables
+masters_count       = 
+masters_name        = "foo"
+master_flavor_name  = ""
+master_vcpu_count   = 
+master_memory_count = 
+
+# Workers nodes variables
+workers_count       = 
+workers_name        = "bar"
+worker_flavor_name  = ""
+worker_vcpu_count   = 
+worker_memory_count = 
